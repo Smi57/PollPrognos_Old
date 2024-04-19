@@ -7,6 +7,8 @@ import { LandingComponent } from './component/landing/landing.component';
 import { PollComponent } from './component/poll/poll.component';
 import { PollListComponent } from './component/poll-list/poll-list.component';
 import { SinglePollComponent } from './component/single-poll/single-poll.component';
+import { Tmp2Component } from './component/tmp2/tmp2.component';
+import { Tmp1Component } from './component/tmp1/tmp1.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SinglePollComponent } from './component/single-poll/single-poll.compone
     LandingComponent,
     PollComponent,
     PollListComponent,
-    SinglePollComponent
+    SinglePollComponent,
+    Tmp2Component,
+    Tmp1Component
   ],
   imports: [
     BrowserModule,
